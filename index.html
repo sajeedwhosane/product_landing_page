@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--   ## 1.  Your product landing page should have a header element with a corresponding id="header" -->
+    <header id="header">
+
+        <!--2. You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)  -->
+        <img src="logo.jpg" alt="Logo" id="header-img">
+
+        <!-- 3. Within the #header element, you can see a nav element with a corresponding id="nav-bar" -->
+        <nav id="nav-bar">
+            <ul id="nav-links">
+                <!-- 4. You can see at least three clickable elements inside the nav element, each with the class nav-link -->
+                <!-- 5. When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page -->
+                <li class="nav-link"><a href="#features">Features</a></li>
+                <li class="nav-link"><a href="#how_it_works">How it works</a></li>
+                <li class="nav-link"><a href="pricing">Pricing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <!-- 6. You can watch an embedded product video with id="video" -->
+        <video src="" id="video"></video>
+        <!-- 7. Your landing page has a form element with a corresponding id="form" -->
+            <!-- 12. When you click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit) -->
+        <form action="https://www.freecodecamp.com/email-submit)" id="form">
+            <!-- 8. Within the form, there is an input field with id="email" where you can enter an email address -->
+            <label for="email">Email:</label>
+            <!-- 9. The #email input field should have placeholder text to let users know what the field is for -->
+            <!-- 10. The #email input field uses HTML5 validation to confirm that the entered text is an email address -->
+            <input type="email" name="email" id="email" placeholder="enter your email address" required>
+            <!-- 11. Within the form, there is a submit input with a corresponding id="submit" -->
+            <input type="submit" value="Get Started" id="submit">   
+
+
+        </form>
+    </main>
+</body>
+</html>
