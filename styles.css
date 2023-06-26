@@ -21,10 +21,16 @@
     margin-bottom:0;
     
 }
-
+h3{
+    text-align: center;
+}
 #section1{
     display:flex;
 }
 #fsection{
     display:flex;
+}
+
+#video{
+    width:100%;
 }
