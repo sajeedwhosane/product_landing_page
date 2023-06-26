@@ -2,3 +2,29 @@
     width:50px;
     height:50px;
 }
+#header{
+    display:flex;
+    background-color: blue  ;
+}
+#nav-bar{
+    width:100%;
+}
+#nav-links{
+    list-style-type: none;
+    display:flex;
+    width: 50%;
+    margin-left:50%;
+    background-color: black;
+}
+.nav-link{
+    margin-right:5rem;
+    margin-bottom:0;
+    
+}
+
+#section1{
+    display:flex;
+}
+#fsection{
+    display:flex;
+}
