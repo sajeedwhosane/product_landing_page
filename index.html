@@ -18,22 +18,22 @@
             <ul id="nav-links">
                 <!-- 4. You can see at least three clickable elements inside the nav element, each with the class nav-link -->
                 <!-- 5. When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page -->
-                <li class="nav-link"><a href="#features">Features</a></li>
-                <li class="nav-link"><a href="#how_it_works">How it works</a></li>
-                <li class="nav-link"><a href="pricing">Pricing</a></li>
+                <li ><a class="nav-link" href="#features">Features</a></li>
+                <li ><a class="nav-link" href="#how_it_works">How it works</a></li>
+                <li ><a class="nav-link" href="#pricing">Pricing</a></li>
             </ul>
         </nav>
     </header>
     <main id="main">
         <section id="section1">
-            <img src="img/landingpage.png" alt="Image of the tablet">
+            <img src="img/landingpage.png" alt="Image of the tablet" id="img1">
             <p class="subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur sed voluptatibus reprehenderit tempore debitis ratione pariatur velit nesciunt incidunt tempora</p>
         </section>
         <section id="features">
             <h3>Features</h3>
             <div id="fsection">
                 <img src="img/feature.jpg" alt="An image of the tablet" id="feature-img">
-                <div id="feature-text">
+                <div id="feature-text" class="subtext">
                     <p>10th Generation Intel® Core™ i5</p>
                     <p> NVIDIA® GeForce® MX250</p>
                     <p> 512GB SATA SSD</p>
@@ -52,7 +52,7 @@
         <section id="pricing">
             <!-- 7. Your landing page has a form element with a corresponding id="form" -->
             <!-- 12. When you click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit) -->
-            <form action="https://www.freecodecamp.com/email-submit)" id="form">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
             <!-- 8. Within the form, there is an input field with id="email" where you can enter an email address -->
             <label for="email">Email:</label>
             <!-- 9. The #email input field should have placeholder text to let users know what the field is for -->
