@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!--   ## 1.  Your product landing page should have a header element with a corresponding id="header" -->
     <header id="header">
 
         <!--2. You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)  -->
-        <img src="logo.jpg" alt="Logo" id="header-img">
+        <img src="img/logo.png" alt="Logo" id="header-img">
 
         <!-- 3. Within the #header element, you can see a nav element with a corresponding id="nav-bar" -->
         <nav id="nav-bar">
@@ -24,11 +25,34 @@
         </nav>
     </header>
     <main id="main">
+        <section id="section1">
+            <img src="img/landingpage.png" alt="Image of the tablet">
+            <p class="subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur sed voluptatibus reprehenderit tempore debitis ratione pariatur velit nesciunt incidunt tempora</p>
+        </section>
+        <section id="features">
+            <h3>Features</h3>
+            <div id="fsection">
+                <img src="img/feature.jpg" alt="An image of the tablet" id="feature-img">
+                <div id="feature-text">
+                    <p>10th Generation Intel® Core™ i5</p>
+                    <p> NVIDIA® GeForce® MX250</p>
+                    <p> 512GB SATA SSD</p>
+                    <p> 8GB DDR4 RAM</p>
+                    <p> Full HD Anti-glare Display 35.56cm (14)</p>
+                    <p>1.5kg Light & Sleek</p>
+                </div>
+            </div>
+        </section>
         <!-- 6. You can watch an embedded product video with id="video" -->
-        <video src="" id="video"></video>
-        <!-- 7. Your landing page has a form element with a corresponding id="form" -->
+        <section id="how_it_works">
+            <h3>How it works</h3>
+            <iframe width="1280" height="720" id="video" src="https://www.youtube.com/embed/svwkLQ9qRH0" title="Amazon Fire Max 11 Tablet | Unboxing &amp; Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       
+        </section>
+        <section id="pricing">
+            <!-- 7. Your landing page has a form element with a corresponding id="form" -->
             <!-- 12. When you click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit) -->
-        <form action="https://www.freecodecamp.com/email-submit)" id="form">
+            <form action="https://www.freecodecamp.com/email-submit)" id="form">
             <!-- 8. Within the form, there is an input field with id="email" where you can enter an email address -->
             <label for="email">Email:</label>
             <!-- 9. The #email input field should have placeholder text to let users know what the field is for -->
@@ -37,8 +61,9 @@
             <!-- 11. Within the form, there is a submit input with a corresponding id="submit" -->
             <input type="submit" value="Get Started" id="submit">   
 
-
-        </form>
+        
+             </form>
+        </section>  
     </main>
 </body>
 </html>
